@@ -1,12 +1,10 @@
-FROM openjdk:11-jdk-slim as builder
+FROM eclipse-temurin:17-alpine as builder
 
-ENV GRADLE_VER=6.1.1
-RUN apt-get update -qqy \
-  && apt-get install -qqy \
-   --no-install-recommends \
+ENV GRADLE_VER=8.0
+RUN apk --no-cache add \
    curl \
    ca-certificates \
-   unzip
+   zip
 
 RUN mkdir -p /opt/ && cd /opt/ \
     && echo "Downloading gradle.." \
@@ -26,15 +24,15 @@ WORKDIR /home/app
 COPY . /home/app/
 
 RUN gradle build
-RUN find . 
+RUN find .
 
-FROM ghcr.io/openfaas/of-watchdog:0.9.10 as watchdog
+FROM --platform=${TARGETPLATFORM:-linux/amd64} ghcr.io/openfaas/of-watchdog:0.9.10 as watchdog
 
-FROM openjdk:11-jre-slim as ship
-RUN apt-get update -qqy \
-  && apt-get install -qqy \
-   --no-install-recommends \
-   unzip
+FROM eclipse-temurin:17-alpine as ship
+RUN apk --no-cache add \
+   curl \
+   ca-certificates \
+   zip
 RUN addgroup --system app \
     && adduser --system --ingroup app app
 
