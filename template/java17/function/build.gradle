@@ -1,6 +1,7 @@
 plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java-library'
+    id 'maven-publish'
     id 'distribution'
 }
 
@@ -14,8 +15,8 @@ dependencies {
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
 
-    compile 'com.openfaas:model:0.1.1'
-    compile 'com.openfaas:entrypoint:0.1.0'
+    api 'com.openfaas:model:0.1.1'
+    api 'com.openfaas:entrypoint:0.1.0'
 }
 
 // In this section you declare where to find the dependencies of your project
@@ -42,13 +43,13 @@ distributions {
         contents {
             from jar
             into('lib') {
-                from(project.configurations.runtime)
+                from(project.configurations.runtimeClasspath)
             }
         }
     }
 }
 
-uploadArchives {
+publishing {
     repositories {
        flatDir {
            dirs 'repos'
