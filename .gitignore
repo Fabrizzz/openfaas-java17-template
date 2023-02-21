@@ -1,1 +1,4 @@
 /.idea/
+/template/java17/gradlew
+/template/java17/gradlew.bat
+/template/java17/.gradle/
