@@ -1,3 +1,5 @@
+This project is a fork based on the Java11-template that you can find [here](https://github.com/openfaas/templates/tree/master/template/java11)
+
 ## Template: java17
 
 The Java17 template uses gradle as a build system.
