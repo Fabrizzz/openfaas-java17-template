@@ -57,9 +57,3 @@ publishing {
     }
 }
 
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '8.0' //version required
-}
-
-
