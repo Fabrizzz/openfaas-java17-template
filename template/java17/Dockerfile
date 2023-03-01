@@ -1,20 +1,4 @@
-FROM eclipse-temurin:17-alpine as builder
-
-ENV GRADLE_VER=8.0
-RUN apk --no-cache add \
-   curl \
-   ca-certificates \
-   zip
-
-RUN mkdir -p /opt/ && cd /opt/ \
-    && echo "Downloading gradle.." \
-    && curl -sSfL "https://services.gradle.org/distributions/gradle-${GRADLE_VER}-bin.zip" -o gradle-$GRADLE_VER-bin.zip \
-    && unzip gradle-$GRADLE_VER-bin.zip -d /opt/ \
-    && rm gradle-$GRADLE_VER-bin.zip
-
-# Export some environment variables
-ENV GRADLE_HOME=/opt/gradle-$GRADLE_VER/
-ENV PATH=$PATH:$GRADLE_HOME/bin
+FROM gradle:8.0-jdk17-alpine as builder
 
 RUN mkdir -p /home/app/libs
 
