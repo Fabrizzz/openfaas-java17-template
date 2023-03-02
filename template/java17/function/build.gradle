@@ -12,7 +12,7 @@ dependencies {
     api 'com.openfaas:model:0.1.1'
     api 'com.openfaas:entrypoint:0.1.0'
     testImplementation("org.junit.jupiter:junit-jupiter:5.9.2")
-    testCompileOnly 'junit:junit:4.12'
+    testCompileOnly 'junit:junit:4.13.2'
     testRuntimeOnly 'org.junit.vintage:junit-vintage-engine:5.9.2'
 }
 
@@ -39,7 +39,7 @@ distributions {
     main {
         contents {
             from jar
-            into('lib') {
+            into('libs') {
                 from(project.configurations.runtimeClasspath)
             }
         }
