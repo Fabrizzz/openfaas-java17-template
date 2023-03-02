@@ -1,8 +1,6 @@
 /.idea/
-/template/java17/gradlew
-/template/java17/gradlew.bat
 /template/java17/.gradle/
 build
 .secrets
 /example/
-template
+/stack.yml
