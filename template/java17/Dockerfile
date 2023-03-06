@@ -5,6 +5,11 @@ RUN mkdir -p /home/app/libs
 ENV GRADLE_OPTS="-Dorg.gradle.daemon=false"
 WORKDIR /home/app
 
+COPY *.gradle gradle.* gradlew ./
+COPY gradle ./gradle
+
+RUN ./gradlew --version
+
 COPY . .
 
 RUN ./gradlew build
@@ -25,7 +30,6 @@ WORKDIR /home/app
 COPY --from=builder /home/app/function/build/distributions/function-1.0.zip ./function-1.0.zip
 USER app
 RUN unzip ./function-1.0.zip
-
 WORKDIR /home/app/
 
 ENV upstream_url="http://127.0.0.1:8082"
