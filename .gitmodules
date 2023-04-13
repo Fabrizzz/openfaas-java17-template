@@ -1,0 +1,3 @@
+[submodule "templates-sdk-java17"]
+	path = templates-sdk-java17
+	url = https://github.com/Fabrizzz/templates-sdk-java17
