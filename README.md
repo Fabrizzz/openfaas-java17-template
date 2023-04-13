@@ -1,4 +1,5 @@
-This project is a fork based on the Java11-template that you can find [here](https://github.com/openfaas/templates/tree/master/template/java11)
+This project is a fork based on the Java11-template that you can
+find [here](https://github.com/openfaas/templates/tree/master/template/java11)
 
 ## Template: java17
 
@@ -22,5 +23,6 @@ Tests are supported with junit via files in `./src/test`
 
 ### External dependencies
 
-External dependencies can be specified in ./build.gradle in the normal way using jcenter, a local JAR or some other remote repository.
+External dependencies can be specified in ./build.gradle in the normal way using jcenter, a local JAR or some other
+remote repository.
 
