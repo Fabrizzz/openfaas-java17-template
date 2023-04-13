@@ -1,6 +1,5 @@
 package com.openfaas.function;
 
-import com.openfaas.model.IHandler;
 import com.openfaas.model.IResponse;
 import com.openfaas.model.IRequest;
 import com.openfaas.model.Response;
