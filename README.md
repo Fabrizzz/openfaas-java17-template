@@ -7,6 +7,8 @@ The Java17 template uses gradle as a build system.
 
 Gradle version: 8.0
 
+The entrypoint library has been updated to use jetty as a server backend.
+Both model and entrypoint has been upgraded to java17 and gradle 8
 ### Structure
 
 There are three projects which make up a single gradle build:
@@ -23,6 +25,6 @@ Tests are supported with junit via files in `./src/test`
 
 ### External dependencies
 
-External dependencies can be specified in ./build.gradle in the normal way using jcenter, a local JAR or some other
+External dependencies can be specified in ./build.gradle in the normal way using maven central, a local JAR or some other
 remote repository.
 
