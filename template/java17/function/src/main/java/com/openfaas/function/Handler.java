@@ -1,10 +1,8 @@
 package com.openfaas.function;
 
-import com.openfaas.model.IRequest;
-import com.openfaas.model.IResponse;
-import com.openfaas.model.Response;
+import  com.openfaas.model.*;
 
-public class Handler extends com.openfaas.model.AbstractHandler {
+public class Handler extends AbstractHandler {
 
     public IResponse Handle(IRequest req) {
         Response res = new Response();
