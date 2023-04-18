@@ -22,7 +22,7 @@ repositories {
     mavenCentral()
     maven {
         name = 'localrepo'
-        url = layout.buildDirectory.dir("../../localrepo")
+        url = layout.buildDirectory.dir("../libs")
     }
 }
 
