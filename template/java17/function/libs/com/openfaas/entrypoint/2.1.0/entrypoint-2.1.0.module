@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.openfaas",
+    "module": "entrypoint",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.openfaas",
+          "module": "model",
+          "version": {
+            "requires": "2.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "entrypoint-2.1.0.jar",
+          "url": "entrypoint-2.1.0.jar",
+          "size": 5107,
+          "sha512": "2f4d7f44adffd8bfdc8842af860a048b24e15d0a3df47760c05d4bff25ad35ae1f1466b9bfdab480a1bdde8c04b15e3eaaf4686cc09f63ed24df1d46bda5f056",
+          "sha256": "bac391df924666c21124cd5f04c45cd529c328c85657e3f5ff8fb8a37822d975",
+          "sha1": "9f6c09f459c2bab5c95a0d7f3f116ee3fb207d04",
+          "md5": "184cfaf1498b7df85e3ac13bcd046cc8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-http-spi",
+          "version": {
+            "requires": "11.0.15"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-server",
+          "version": {
+            "requires": "11.0.15"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.openfaas",
+          "module": "model",
+          "version": {
+            "requires": "2.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "entrypoint-2.1.0.jar",
+          "url": "entrypoint-2.1.0.jar",
+          "size": 5107,
+          "sha512": "2f4d7f44adffd8bfdc8842af860a048b24e15d0a3df47760c05d4bff25ad35ae1f1466b9bfdab480a1bdde8c04b15e3eaaf4686cc09f63ed24df1d46bda5f056",
+          "sha256": "bac391df924666c21124cd5f04c45cd529c328c85657e3f5ff8fb8a37822d975",
+          "sha1": "9f6c09f459c2bab5c95a0d7f3f116ee3fb207d04",
+          "md5": "184cfaf1498b7df85e3ac13bcd046cc8"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "entrypoint-2.1.0-javadoc.jar",
+          "url": "entrypoint-2.1.0-javadoc.jar",
+          "size": 83412,
+          "sha512": "c31278a23e970a6306c563c634223aaa76eb91794e60585816a8694749b17c7c90ae31a1108265f6f4def2a445a76db8d2f6f2ea5e07d6736b04d399a8f3b513",
+          "sha256": "307d563eed5b182ba3d508b2f92c04778a6bacffc8ae9de6deeaeed3b4799daa",
+          "sha1": "f812de156c484907c93b29d6bb2923e38f9cc0e6",
+          "md5": "d0b15a31c32a6c97f57200b36e4aa9bf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "entrypoint-2.1.0-sources.jar",
+          "url": "entrypoint-2.1.0-sources.jar",
+          "size": 2757,
+          "sha512": "60ff2f7bebb843c8b334f881168018ebc273121c2520fd3f47e5afbcf9fd5b4f58f068e9edbd424943163801a9c487647568fb13648dbc5576f86fbfa8f07673",
+          "sha256": "15636a648b909a9d6062b7951fc4d345c2d913a20d06af6172d048577983bfbc",
+          "sha1": "843207966d7ca1f03766c539d0f424fa6933afca",
+          "md5": "d551f5d97a13dd5587c715ee141fb663"
+        }
+      ]
+    }
+  ]
+}
