@@ -28,10 +28,10 @@
           "name": "model-2.1.1.jar",
           "url": "model-2.1.1.jar",
           "size": 4903,
-          "sha512": "1fb480480e4e36580ee0ad03a5fa5283a0f6854d632694560fe2612707f6a5a560fc0c2838eb32133e6a3718ddea8a5d3aa60f78aea98fdb5420a454a96b8b8c",
-          "sha256": "0e99e9a9233a24215867ba810a9067c83e1b05a96e49cdef9e9b10ad768d3877",
-          "sha1": "c528f974fe0804435a13bbde53d6419572398ea6",
-          "md5": "1a333c7ac7005e1be14e7a177d2cfaea"
+          "sha512": "6d29e91d772e167ef4c472725dc5400c6eacee14f160a96ac036f8404e87e91d01713cded5a080ff7844a47d2dbb14c964261b396e5747dc173af48802ab6beb",
+          "sha256": "9be620d942331a965f76441cc81bfabf574342e3b4a1959a656971c4dd6f1936",
+          "sha1": "b3b6ad4e4128396bed24d9b98c2256c160bd1fe8",
+          "md5": "b124cfd058b2c52eb465db560b8778e7"
         }
       ]
     },
@@ -49,10 +49,10 @@
           "name": "model-2.1.1.jar",
           "url": "model-2.1.1.jar",
           "size": 4903,
-          "sha512": "1fb480480e4e36580ee0ad03a5fa5283a0f6854d632694560fe2612707f6a5a560fc0c2838eb32133e6a3718ddea8a5d3aa60f78aea98fdb5420a454a96b8b8c",
-          "sha256": "0e99e9a9233a24215867ba810a9067c83e1b05a96e49cdef9e9b10ad768d3877",
-          "sha1": "c528f974fe0804435a13bbde53d6419572398ea6",
-          "md5": "1a333c7ac7005e1be14e7a177d2cfaea"
+          "sha512": "6d29e91d772e167ef4c472725dc5400c6eacee14f160a96ac036f8404e87e91d01713cded5a080ff7844a47d2dbb14c964261b396e5747dc173af48802ab6beb",
+          "sha256": "9be620d942331a965f76441cc81bfabf574342e3b4a1959a656971c4dd6f1936",
+          "sha1": "b3b6ad4e4128396bed24d9b98c2256c160bd1fe8",
+          "md5": "b124cfd058b2c52eb465db560b8778e7"
         }
       ]
     },
@@ -69,10 +69,10 @@
           "name": "model-2.1.1-javadoc.jar",
           "url": "model-2.1.1-javadoc.jar",
           "size": 94913,
-          "sha512": "f6948961e56cc801a266518a54564b2b25b3ccb5c272a5bac0325542067bbd6ef1a1a518ba1449980528e0146272b4328e8c11286d763cc724b2de59db42fffa",
-          "sha256": "c69c66209814c1b40a807ec03150076207687a4100c39ddb4d7a47c47314d12f",
-          "sha1": "c10c6e00585b12cc1e3475f5f8faaf841793ed3b",
-          "md5": "4c5ad138a6f7aea2070af0ae4f38d67b"
+          "sha512": "8bc87cac422bcea97e9270975adbf7d1ebbe08a451696d1d26e77b6f12da88ebb7794cc0bf8b9bc3e73804f9196785748bdf40ab1ba26367b1bcf939334905bb",
+          "sha256": "7345844223b2490f150dda91782ed9ac9a0b9c731011cb3d29b10c50d8820785",
+          "sha1": "766442589c50085fe9b6a9094ac430b4fd0e6f00",
+          "md5": "011ba3039c52940044f29b1ee9d28031"
         }
       ]
     },
@@ -89,10 +89,10 @@
           "name": "model-2.1.1-sources.jar",
           "url": "model-2.1.1-sources.jar",
           "size": 3793,
-          "sha512": "cf4efa1c18c0f388fb65b3a5ce0de2907feab90120f4d3f1d347aaaaba9abcf17c7233c1359e534dea6c4c8ccdf8d1911964d0bb7601d3149adfd6f98bc63a3e",
-          "sha256": "464325f68bbc10bceec7a05c0f2e6437dc78e6194f5836e0447843a383c86faa",
-          "sha1": "f9ca5f0101a94d15a6031713661b438f2372449b",
-          "md5": "d3b7e42d1bb7676caea4e864d4b4a8f6"
+          "sha512": "4dd2aea15e8cde1e212641a35a718f8f3fbaafc9eb629a1e5799d143cebe39c4d076e19c20220e908a1a36496d3ed69aaa5b668d61bdc52873eca4863981b8b1",
+          "sha256": "c4f6c46da008a119644750fea02b65538efa697edcaf953b1299c478c8bad265",
+          "sha1": "ff6a716750f3903a267c752e49d67d1d313050e5",
+          "md5": "c45dc2d0378c2538316d8cce7ed2b075"
         }
       ]
     }

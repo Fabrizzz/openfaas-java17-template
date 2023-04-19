@@ -37,10 +37,10 @@
           "name": "entrypoint-2.1.0.jar",
           "url": "entrypoint-2.1.0.jar",
           "size": 5107,
-          "sha512": "2f4d7f44adffd8bfdc8842af860a048b24e15d0a3df47760c05d4bff25ad35ae1f1466b9bfdab480a1bdde8c04b15e3eaaf4686cc09f63ed24df1d46bda5f056",
-          "sha256": "bac391df924666c21124cd5f04c45cd529c328c85657e3f5ff8fb8a37822d975",
-          "sha1": "9f6c09f459c2bab5c95a0d7f3f116ee3fb207d04",
-          "md5": "184cfaf1498b7df85e3ac13bcd046cc8"
+          "sha512": "99ac8ceff69c6d695f1ddb242c91f51b9a03dab8d1695b1d865299ce1bb4f4702a16beb5f8af00242666308ae0123b37265ae495e67fa5dad3e5b03dbb2939e0",
+          "sha256": "557fbd17e42f120b4d1e3650cbc78224fc6ba71686890c25908b0e77a141fc40",
+          "sha1": "3c7dd511971e40a2640b51576759322170805934",
+          "md5": "6d27e5e3d96f7d88d33d6ebf05f942c6"
         }
       ]
     },
@@ -88,10 +88,10 @@
           "name": "entrypoint-2.1.0.jar",
           "url": "entrypoint-2.1.0.jar",
           "size": 5107,
-          "sha512": "2f4d7f44adffd8bfdc8842af860a048b24e15d0a3df47760c05d4bff25ad35ae1f1466b9bfdab480a1bdde8c04b15e3eaaf4686cc09f63ed24df1d46bda5f056",
-          "sha256": "bac391df924666c21124cd5f04c45cd529c328c85657e3f5ff8fb8a37822d975",
-          "sha1": "9f6c09f459c2bab5c95a0d7f3f116ee3fb207d04",
-          "md5": "184cfaf1498b7df85e3ac13bcd046cc8"
+          "sha512": "99ac8ceff69c6d695f1ddb242c91f51b9a03dab8d1695b1d865299ce1bb4f4702a16beb5f8af00242666308ae0123b37265ae495e67fa5dad3e5b03dbb2939e0",
+          "sha256": "557fbd17e42f120b4d1e3650cbc78224fc6ba71686890c25908b0e77a141fc40",
+          "sha1": "3c7dd511971e40a2640b51576759322170805934",
+          "md5": "6d27e5e3d96f7d88d33d6ebf05f942c6"
         }
       ]
     },
@@ -108,10 +108,10 @@
           "name": "entrypoint-2.1.0-javadoc.jar",
           "url": "entrypoint-2.1.0-javadoc.jar",
           "size": 83412,
-          "sha512": "c31278a23e970a6306c563c634223aaa76eb91794e60585816a8694749b17c7c90ae31a1108265f6f4def2a445a76db8d2f6f2ea5e07d6736b04d399a8f3b513",
-          "sha256": "307d563eed5b182ba3d508b2f92c04778a6bacffc8ae9de6deeaeed3b4799daa",
-          "sha1": "f812de156c484907c93b29d6bb2923e38f9cc0e6",
-          "md5": "d0b15a31c32a6c97f57200b36e4aa9bf"
+          "sha512": "2a87206eae85010b152808b852db5cf701a5d490d7c16e0e33c5b980d2b77af6a4b455a3c17ca4d3c479542a7126f2fa0cd841ca9ba8ebbf2f6f0c4038e6289e",
+          "sha256": "ae7f8738fdf3c83126a6cd278741e88518de7e5420335188c5ca1f0b84c80cce",
+          "sha1": "8b8e999ea59650415a551b292e1ffe0e3ffeaf32",
+          "md5": "0e4f0ca2e0262df9f36a06862bfdd318"
         }
       ]
     },
@@ -128,10 +128,10 @@
           "name": "entrypoint-2.1.0-sources.jar",
           "url": "entrypoint-2.1.0-sources.jar",
           "size": 2757,
-          "sha512": "60ff2f7bebb843c8b334f881168018ebc273121c2520fd3f47e5afbcf9fd5b4f58f068e9edbd424943163801a9c487647568fb13648dbc5576f86fbfa8f07673",
-          "sha256": "15636a648b909a9d6062b7951fc4d345c2d913a20d06af6172d048577983bfbc",
-          "sha1": "843207966d7ca1f03766c539d0f424fa6933afca",
-          "md5": "d551f5d97a13dd5587c715ee141fb663"
+          "sha512": "cfed7ab5d06425b7cc83375e4fee6a2a48625c6b586d474b4bb122238983a412a41b0b8885760057bc4c16c666ba5cc2308bc39b94281c7a00c12f8a82282d37",
+          "sha256": "c92956c2842896a59cfbe1eefe1f4f99489039ea53df6a36f59aa481a9c55f52",
+          "sha1": "b18f5fce1e865b4216a1866419e67f70ede0498c",
+          "md5": "bcf77ad37e2b223379d70039f00172bc"
         }
       ]
     }
